@@ -1,0 +1,11 @@
+.slide {
+    width: 1500px;
+    height: 1100px;
+    margin: 0 auto
+  }
+  #slideshow-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }

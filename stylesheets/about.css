@@ -1,0 +1,47 @@
+body{
+    background-color: #141413;
+}
+.menu{
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    width: fit-content;
+}
+
+.menu li {
+    display: flex;
+    display: inline-block;
+    
+   
+}
+
+.menu li a{
+    font-size: 1.5em;
+    display: block;
+    padding: 1em;
+    color: #ffecdf;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    background-color: #ffecdf;
+    color: #483c32;
+}
+
+h1{
+    position: relative;
+    float: left;
+    width: 6.25em;
+    height: 6.25em;
+}
+h1 a {
+    color: #ffecdf;
+    width: 25em;
+    text-decoration: none;
+
+}
+.logo{
+    width: 9.375em;
+    float: right;
+    
+}

@@ -3,17 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>progress restaurant sofia</title>
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Wanderlust- Main page</title>
     <link rel="stylesheet" href="./stylesheets/index_css.css">
+    <link rel="stylesheet" href="./stylesheets/slideshow.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./stylesheets/headAndFooter.css">
 </head>
 <body>
-    <h1>Ресторант Прогрес</h1>
-    <h2>Прогресирай към доволен стомах</h2>
-    <a href="" id="About_us">About us</a>
-    <a href="" id="locations">locations</a>
-    <a href="" id="menu">Menu</a>
-    <a href="" id="Head_chefs">Head Chefs</a>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sed quis velit provident necessitatibus, maiores vero aliquid maxime culpa tempora accusantium enim eius doloribus repudiandae nam doloremque laborum unde quo?</p>
-</body> 
+    <header>
+        <h1><a href="./index.html">>Wanderlust</a></h1>
+        <div>
+            <img src="./images/restaurantlogodesign.png" alt="logo" class="logo">
+        </div>
+         <ul class="menu">
+            <li><a href="./index.html">home</a></li>
+            <li><a href="pages/location.html">locations</a></li>
+            <li><a href="./pages/cheffs.html">cheffs</a></li>
+            <li><a href="./pages/about.html">about</a></li>
+            <li><a href="./pages/menu.html">menu</a></li>
+         </ul>
+    </header>
+   <div id="slideshow-container">
+        <img id="slideshow" src="./images/italian.jpg" alt="slideshow image" class="slide"/>
+    </div>
+    <script src="./scripts/slideshow.js"></script>
+    <div class="Order">
+        <a href="./pages/menu.html" class="OrderNow">Reserve Now</a>
+    </div>
+    <footer>
+        <p>&copy;wanderlust 2023</p>
+        <a href="https://www.instagram.com/?hl=bg"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/dimitur.manolkov/"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://bg.linkedin.com/in/dimitar-manolkov-a38296228"><i class="fa-brands fa-linkedin"></i></a>
+    </footer>
+</body>
 </html>
